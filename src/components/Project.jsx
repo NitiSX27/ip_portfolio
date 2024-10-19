@@ -28,7 +28,7 @@ const Project = () => {
                   </p>
                 </div>
                 <div className="md:shrink-0 p-5">
-                  <img src="/img3.jpg" alt="Project1" className='w-32 h-32 object-cover' />
+                  <img src="./img3.jpg" alt="Project1" className='w-32 h-32 object-cover' />
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const Project = () => {
                   </p>
                 </div>
                 <div className="md:shrink-0 p-5">
-                  <img src="/img4.png" alt="Project1" className='w-32 h-32 object-cover' />
+                  <img src="./img4.png" alt="Project1" className='w-32 h-32 object-cover' />
                 </div>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Project = () => {
                   </p>
                 </div>
                 <div className="md:shrink-0 p-5">
-                  <img src="/img6.png" alt="Project1" className='w-32 h-32 object-cover' />
+                  <img src="./img6.png" alt="Project1" className='w-32 h-32 object-cover' />
                 </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ const Project = () => {
                   </p>
                 </div>
                 <div className="md:shrink-0 p-5">
-                  <img src="/img5.jpg" alt="Project1" className='w-32 h-32 object-cover' />
+                  <img src="./img5.jpg" alt="Project1" className='w-32 h-32 object-cover' />
                 </div>
               </div>
             </div>

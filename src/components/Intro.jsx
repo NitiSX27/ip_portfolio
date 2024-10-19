@@ -14,7 +14,7 @@ const Intro = () => {
             </p>
         </div>
         <div class="h-80 overflow-hidden rounded-full  border-8 border-whitel w-1/3 items-center ssm:w-fit">
-            <img src="/img2.jpeg" alt="Your image" class="w-full h-full object-cover" />
+            <img src="./img2.jpeg" alt="Your image" class="w-full h-full object-cover" />
         </div>
         <div className="w-1/3 sm:w-fit">  
             <p className="text-xl mb-4">About Me</p>  
@@ -26,13 +26,13 @@ const Intro = () => {
             </button>  
             <div className='flex mt-5 space-x-4 cursor-pointer'> 
                 <div className='border-4 border-white hover:border-indigo-800 rounded-full p-2'>
-                    <a href="https://www.instagram.com/nitish_27_11/profilecard/?igsh=MXZnbjdibnZ0bTl5dQ=="><img src="/insta.svg" alt="Instagram" className='w-9 h-9 rounded-full'/></a>
+                    <a href="https://www.instagram.com/nitish_27_11/profilecard/?igsh=MXZnbjdibnZ0bTl5dQ=="><img src="./insta.svg" alt="Instagram" className='w-9 h-9 rounded-full'/></a>
                 </div>
                 <div className='border-4 border-white hover:border-indigo-800 rounded-full p-2'>
-                    <a href="https://github.com/NitiSX27"><img src="/git.svg" alt="GitHub" className='w-9 h-9 rounded-full'/></a>
+                    <a href="https://github.com/NitiSX27"><img src="./git.svg" alt="GitHub" className='w-9 h-9 rounded-full'/></a>
                 </div>
                 <div className='border-4 border-white hover:border-indigo-800 rounded-full p-2'>
-                    <a href="https://www.linkedin.com/in/nitish-bhosle11/"><img src="/link.svg" alt="LinkedIn" className='w-9 h-9 rounded-full'/></a>
+                    <a href="https://www.linkedin.com/in/nitish-bhosle11/"><img src="./link.svg" alt="LinkedIn" className='w-9 h-9 rounded-full'/></a>
                 </div>
             </div> 
         </div>  

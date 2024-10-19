@@ -7,7 +7,7 @@ const Navbar = () => {
   // Detect scrolling
   const handleScroll = () => {
     if (window.scrollY > 50) {
-      setSticky(true); // Apply sticky style when scrolled
+      setSticky(true); // Apply sticky style when scrolled  
     } else {
       setSticky(false); // Remove sticky style when at the top
     }
@@ -35,14 +35,14 @@ const Navbar = () => {
       <div
         className={`${
           isSticky
-            ? "bg-white bg-inherit shadow-md fixed top-0 left-0 right-0 z-50"
+            ? "bg-white text-black bg-inherit shadow-md fixed top-0 left-0 right-0 z-50"
             : "bg-transparent"
-        } flex justify-between items-center p-10 transition-all duration-300`}
+        } flex text-black justify-between items-center p-10 transition-all duration-300`}
       >
         <div className="flex justify-center items-center">
           <a href="#" className="text-white font-mono text-4xl flex tracking-wider items-center">
             <img
-              src="/mainlogo.png"
+              src="./design.png"
               alt="Be The Future"
               className="bg-transparent"
               style={{ width: "300px", height: "auto" }}
@@ -54,19 +54,25 @@ const Navbar = () => {
           <div className="ssm:hidden lg:block space-x-2">
             <a
               href="#skills"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className={`${
+                isSticky ? "text-black" : "text-white"
+              } hover:bg-indigo-800 rounded-full px-5 py-2 text-xl transition-colors duration-300`}
             >
               Skills
             </a>
             <a
               href="#projects"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className={`${
+                isSticky ? "text-black" : "text-white"
+              } hover:bg-indigo-800 rounded-full px-5 py-2 text-xl transition-colors duration-300`}
             >
               Projects
             </a>
             <a
               href="#test"
-              className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl"
+              className={`${
+                isSticky ? "text-black" : "text-white"
+              } hover:bg-indigo-800 rounded-full px-5 py-2 text-xl transition-colors duration-300`}
             >
               Contact
             </a>
@@ -75,7 +81,7 @@ const Navbar = () => {
           <div className="ssm:block lg:hidden">
             {toggle ? (
               <img
-                src="/img1.svg"
+                src="./img1.svg"
                 alt="menu"
                 sizes={100}
                 onClick={closemenu}
@@ -83,7 +89,7 @@ const Navbar = () => {
               />
             ) : (
               <img
-                src="/img1.svg"
+                src="./img1.svg"
                 alt="menu"
                 sizes={100}
                 onClick={openmenu}
